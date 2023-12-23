@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		FE07D1132B367FEF008036AC /* AoCSolution4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE07D1122B367FEF008036AC /* AoCSolution4.cpp */; };
+		FE0EA3E32B37440C00555B25 /* 1.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = FE6816002B373EFF0056595E /* 1.txt */; };
+		FE0EA3E42B37440C00555B25 /* 2.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = FE6816022B373EFF0056595E /* 2.txt */; };
+		FE0EA3E52B37440C00555B25 /* 3.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = FE6816012B373EFF0056595E /* 3.txt */; };
+		FE0EA3E62B37440C00555B25 /* 4.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = FE6815FF2B373EFF0056595E /* 4.txt */; };
 		FEC18D212B30E77C007573B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC18D202B30E77C007573B4 /* main.cpp */; };
 		FEC18D292B30E811007573B4 /* AoCHelpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC18D272B30E811007573B4 /* AoCHelpers.cpp */; };
 		FEC18D2D2B30EA0D007573B4 /* AoCSolution1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC18D2C2B30EA0D007573B4 /* AoCSolution1.cpp */; };
@@ -22,6 +26,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
+				FE0EA3E32B37440C00555B25 /* 1.txt in CopyFiles */,
+				FE0EA3E42B37440C00555B25 /* 2.txt in CopyFiles */,
+				FE0EA3E52B37440C00555B25 /* 3.txt in CopyFiles */,
+				FE0EA3E62B37440C00555B25 /* 4.txt in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
