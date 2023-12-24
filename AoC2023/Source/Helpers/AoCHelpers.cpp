@@ -44,6 +44,11 @@ namespace AoCHelpers
         // Tokenizing w.r.t. space Token
         while (getline(stream, intermediate, Token))
         {
+            if(intermediate.empty())
+            {
+                continue;
+            }
+            
             Result.push_back(intermediate);
         }
 

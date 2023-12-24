@@ -91,7 +91,7 @@ string AoCSolution5::GetResult(const int Part)
     const auto MaxLocation = GetMaxLocation(LocationRanges);
     for(long long Location = 0; Location < MaxLocation; Location++)
     {
-//        cout << Location << endl;
+        cout << Location << endl;
         const auto SeedIndex = GetSeedIndex(Location);
         for(const auto& SeedRange : SeedRanges)
         {
