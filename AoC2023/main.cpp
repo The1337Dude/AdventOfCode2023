@@ -7,12 +7,13 @@ using namespace std;
 #include "Solutions/AoCSolution4.h"
 #include "Solutions/AoCSolution5.h"
 #include "Solutions/AoCSolution6.h"
+#include "Solutions/AoCSolution7.h"
 
 int main()
 {
-    shared_ptr<IAocSolution> Solution = make_shared<AoCSolution6>();
+    shared_ptr<IAocSolution> Solution = make_shared<AoCSolution7>();
 
-    Solution->Initialize(AoCHelpers::ProcessInput(6));
+    Solution->Initialize(AoCHelpers::ProcessInput(7));
     
     cout << Solution->GetResult(2) << endl;
 
