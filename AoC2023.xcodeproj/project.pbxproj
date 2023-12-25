@@ -14,6 +14,8 @@
 		FE0EA3E62B37440C00555B25 /* 4.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = FE6815FF2B373EFF0056595E /* 4.txt */; };
 		FE5D21A72B37659E0012B33D /* AoCSolution5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5D21A52B37659E0012B33D /* AoCSolution5.cpp */; };
 		FE5D21A92B3781850012B33D /* 5.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = FE5D21A42B37658E0012B33D /* 5.txt */; };
+		FE66879B2B39C40F00F44C90 /* AoCSolution9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE66879A2B39C40F00F44C90 /* AoCSolution9.cpp */; };
+		FE66879C2B39CB6D00F44C90 /* 9.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = FE66877C2B39C3ED00F44C90 /* 9.txt */; };
 		FE9745E52B37CBED00E63D6F /* AoCSolution6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE9745E32B37CBED00E63D6F /* AoCSolution6.cpp */; };
 		FE9745E62B37CBF700E63D6F /* 6.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = FE9745E22B37CBE100E63D6F /* 6.txt */; };
 		FE9745EA2B37DD8400E63D6F /* AoCSolution7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE9745E92B37DD8400E63D6F /* AoCSolution7.cpp */; };
@@ -34,6 +36,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
+				FE66879C2B39CB6D00F44C90 /* 9.txt in CopyFiles */,
 				FE9745F02B38DDFE00E63D6F /* 8.txt in CopyFiles */,
 				FE9745EB2B37DDB400E63D6F /* 7.txt in CopyFiles */,
 				FE9745E62B37CBF700E63D6F /* 6.txt in CopyFiles */,
@@ -53,6 +56,9 @@
 		FE5D21A42B37658E0012B33D /* 5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 5.txt; sourceTree = "<group>"; };
 		FE5D21A52B37659E0012B33D /* AoCSolution5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AoCSolution5.cpp; sourceTree = "<group>"; };
 		FE5D21A62B37659E0012B33D /* AoCSolution5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AoCSolution5.h; sourceTree = "<group>"; };
+		FE66877C2B39C3ED00F44C90 /* 9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 9.txt; sourceTree = "<group>"; };
+		FE6687992B39C40F00F44C90 /* AoCSolution9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AoCSolution9.h; sourceTree = "<group>"; };
+		FE66879A2B39C40F00F44C90 /* AoCSolution9.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AoCSolution9.cpp; sourceTree = "<group>"; };
 		FE6815FF2B373EFF0056595E /* 4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4.txt; sourceTree = "<group>"; };
 		FE6816002B373EFF0056595E /* 1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1.txt; sourceTree = "<group>"; };
 		FE6816012B373EFF0056595E /* 3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3.txt; sourceTree = "<group>"; };
@@ -110,6 +116,8 @@
 		FE6815FE2B373D700056595E /* Solutions */ = {
 			isa = PBXGroup;
 			children = (
+				FE66879A2B39C40F00F44C90 /* AoCSolution9.cpp */,
+				FE6687992B39C40F00F44C90 /* AoCSolution9.h */,
 				FE9745EC2B38DDEB00E63D6F /* AoCSolution8.cpp */,
 				FE9745ED2B38DDEB00E63D6F /* AoCSolution8.h */,
 				FE9745E92B37DD8400E63D6F /* AoCSolution7.cpp */,
@@ -159,6 +167,7 @@
 		FEC18D2E2B30EA3D007573B4 /* Input */ = {
 			isa = PBXGroup;
 			children = (
+				FE66877C2B39C3ED00F44C90 /* 9.txt */,
 				FE9745EF2B38DDF600E63D6F /* 8.txt */,
 				FE9745E72B37DD6800E63D6F /* 7.txt */,
 				FE9745E22B37CBE100E63D6F /* 6.txt */,
@@ -230,6 +239,7 @@
 			files = (
 				FEC18D212B30E77C007573B4 /* main.cpp in Sources */,
 				FE9745EE2B38DDEB00E63D6F /* AoCSolution8.cpp in Sources */,
+				FE66879B2B39C40F00F44C90 /* AoCSolution9.cpp in Sources */,
 				FE07D1132B367FEF008036AC /* AoCSolution4.cpp in Sources */,
 				FEC18D3B2B3117D4007573B4 /* AoCSolution3.cpp in Sources */,
 				FEC18D2D2B30EA0D007573B4 /* AoCSolution1.cpp in Sources */,
